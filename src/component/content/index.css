@@ -1,0 +1,102 @@
+.div-content-1 {
+    margin-top: 40px;
+}
+
+.div-content-earn {
+    margin-top: 40px;
+}
+
+.content-h1 {
+    font-size: 3.6rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.content-span-all {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+.content-span-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(179, 86, 179);
+}
+
+.content-span-bold-2 {
+    font-family: "Roboto", monospace;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: rgb(179, 86, 179);
+
+}
+
+.div-content-note {
+    font-size: 1.6rem;
+    color: white;
+    font-family: "Roboto", monospace;
+    border-radius: 1rem 1rem 1rem 1rem;
+    overflow: hidden;
+}
+
+.line-left-note {
+    width: 1rem;
+    border-radius: 5rem 0rem 0rem 5rem;
+    height: auto;
+    background-color: #5C2F67;
+}
+
+.line-left-info {
+    width: 1rem;
+    border-radius: 5rem 0rem 0rem 5rem;
+    height: auto;
+    background-color: #BCBCBC;
+}
+
+.line-left-warning {
+    width: 1rem;
+    border-radius: 5rem 0rem 0rem 5rem;
+    height: auto;
+    background-color: #E6A700;
+}
+
+.div-content-info {
+    background-color: #4D4D4D;
+    width: 100%;
+}
+
+.div-content-note-right {
+    background-color: #232323;
+    width: 100%;
+}
+
+.div-content-warning {
+    background-color: #1B1812;
+    width: 100%;
+}
+
+.div-content-info ul {
+    margin-bottom: 0rem;
+}
+
+.div-content-info ul li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+@media (max-width: 512px) {
+    .div-content-1 {
+        margin-top: 50px;
+    }
+
+    .div-content-earn {
+        margin-top: 100px;
+    }
+
+    .content-h1 {
+        font-size: 3.2rem;
+    }
+}

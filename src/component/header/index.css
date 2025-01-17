@@ -1,0 +1,108 @@
+span {
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.line {
+    color: white;
+    font-size: 2.8rem;
+}
+
+.div-span {
+    padding-top: 0.6rem;
+}
+
+.div-img {
+    max-width: 20rem;
+    height: auto;
+    padding-top: 1.3rem;
+}
+
+.div-button-menu {
+    display: none;
+}
+
+.div-header {
+    position: relative;
+    padding-left: 1.4rem;
+    background-color: #323232;
+}
+
+.div-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #323232;
+    z-index: 10;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.div-menu.open {
+    transform: translateX(0);
+}
+
+.div-menu.closed {
+    transform: translateX(-100%);
+}
+
+.div-ul ul {
+    padding-left: 0rem !important;
+}
+
+.div-ul ul li {
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 1.5rem;
+}
+
+.div-ul li a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 996px;
+    font-family: "Roboto", sans-serif;
+}
+
+.div-ul ul li:hover {
+    background: linear-gradient(86deg, rgba(21, 0, 60, 0.60) -26.88%, rgba(179, 35, 197, 0.60) -20.12%, rgba(179, 35, 197, 0.60) -13.36%, rgba(21, 0, 60, 0.60) 21.88%, rgba(21, 0, 60, 0.60) 54.89%, rgba(146, 1, 159, 0.60) 101.55%, rgba(38, 2, 84, 0.60) 108.31%);
+}
+
+.div-ul ul li:hover a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.div-ul ul li.active {
+    background: linear-gradient(86deg, rgba(21, 0, 60, 0.60) -26.88%, rgba(179, 35, 197, 0.60) -20.12%, rgba(179, 35, 197, 0.60) -13.36%, rgba(21, 0, 60, 0.60) 21.88%, rgba(21, 0, 60, 0.60) 54.89%, rgba(146, 1, 159, 0.60) 101.55%, rgba(38, 2, 84, 0.60) 108.31%);
+}
+
+.div-ul ul li.active a {
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width:996px) {
+    .div-button-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 512px) {
+    .div-header-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line {
+        display: none;
+    }
+}

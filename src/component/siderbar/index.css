@@ -1,0 +1,77 @@
+.div-siderbar-content ul {
+    padding-left: 0rem !important;
+}
+
+.div-siderbar-content ul li {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+}
+
+.div-siderbar-content ul li:hover {
+    background: linear-gradient(86deg, rgba(21, 0, 60, 0.60) -26.88%, rgba(179, 35, 197, 0.60) -20.12%, rgba(179, 35, 197, 0.60) -13.36%, rgba(21, 0, 60, 0.60) 21.88%, rgba(21, 0, 60, 0.60) 54.89%, rgba(146, 1, 159, 0.60) 101.55%, rgba(38, 2, 84, 0.60) 108.31%);
+}
+
+.div-siderbar-content ul li.active {
+    background: linear-gradient(86deg, rgba(21, 0, 60, 0.60) -26.88%, rgba(179, 35, 197, 0.60) -20.12%, rgba(179, 35, 197, 0.60) -13.36%, rgba(21, 0, 60, 0.60) 21.88%, rgba(21, 0, 60, 0.60) 54.89%, rgba(146, 1, 159, 0.60) 101.55%, rgba(38, 2, 84, 0.60) 108.31%);
+}
+
+.div-siderbar-content ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#earntokens,
+#task,
+#mining,
+#supply,
+#community,
+#performance,
+#limitations,
+#purchase,
+#upgrade,
+#hashes,
+#shares,
+#block-reward,
+#total-mined,
+#devices,
+#rent,
+#ban,
+#energy,
+#question {
+    scroll-margin-top: 130px;
+}
+
+
+@media (max-width: 512px) {
+
+    #earntokens,
+    #task,
+    #mining,
+    #supply,
+    #community,
+    #performance,
+    #limitations,
+    #purchase,
+    #upgrade,
+    #hashes,
+    #shares,
+    #block-reward,
+    #total-mined,
+    #devices,
+    #rent,
+    #ban,
+    #energy,
+    #question {
+        scroll-margin-top: 200px;
+    }
+}

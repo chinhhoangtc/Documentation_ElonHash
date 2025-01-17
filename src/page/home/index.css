@@ -1,0 +1,23 @@
+.list-unstyled {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.div-siderbar {
+    min-height: 100vh;
+
+}
+@media (max-width:996px) {
+    .div-siderbar {
+        display: none;
+    }
+
+    .div-siderbar-bonus {
+        display: none;
+    }
+
+    .div-content-main {
+        width: 100%;
+    }
+
+}
